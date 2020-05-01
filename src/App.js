@@ -1,7 +1,7 @@
 import React from "react";
 
-function App() {
-  return <div className="App"></div>;
-}
+import Header from "./Components/Header";
 
-export default App;
+export default () => {
+  return <Header />;
+};
